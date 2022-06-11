@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style/main.css" />
+    <link rel="stylesheet" href="style/responsive.css" />
+    <!--
+      Arquivos owl css
+    -->
+    <link rel="stylesheet" href="style/own/owl.carousel.min.css" />
+    <link rel="stylesheet" href="style/own/owl.theme.default.min.css" />
+    <title>NETFLIX CLONE</title>
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <h2 class="logo">NETFLIX</h2>
+        <nav>
+          <a href="#">Inicio</a>
+          <a href="#">Séries</a>
+          <a href="#">Filmes</a>
+          <a href="#">Documentários</a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <div class="filme-principal">
+        <div class="container">
+          <h3 class="titulo">HOUSE OF CARDS</h3>
+          <p class="descricao">
+            Um político inescrupuloso não mede esforços para conquistar o poder
+            nos EUA neste drama vencedor do Emmy e do Globo de Ouro. Assista
+            agora a nova temporada de House of Cards que está imperdivel
+          </p>
+          <div class="botoes">
+            <a
+              href="https://www.youtube.com/watch?v=kasvV-XyzqU"
+              target="_blank"
+              role="button"
+              class="botao"
+            >
+              <i class="fas fa-play"></i>
+              ASSISTIR AGORA
+            </a>
+            <a id="info" role="button" class="botao" onclick="sinopse()">
+              <i class="fa-solid fa-circle-info"></i>
+              MAIS INFORMAÇÕES
+            </a>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <div class="carrosel-filmes">
+      <div class="owl-carousel owl-theme">
+        <div class="item">
+          <img class="box-filme" src="img/mini1.jpg" alt="" />
+        </div>
+        <div class="item">
+          <img class="box-filme" src="img/mini10.jpg" alt="" />
+        </div>
+        <div class="item">
+          <img class="box-filme" src="img/mini2.jpg" alt="" />
+        </div>
+        <div class="item">
+          <img class="box-filme" src="img/mini3.jpg" alt="" />
+        </div>
+        <div class="item">
+          <img class="box-filme" src="img/mini4.jpg" alt="" />
+        </div>
+        <div class="item">
+          <img class="box-filme" src="img/mini5.jpg" alt="" />
+        </div>
+        <div class="item">
+          <img class="box-filme" src="img/mini6.jpg" alt="" />
+        </div>
+        <div class="item">
+          <img class="box-filme" src="img/mini7.jpg" alt="" />
+        </div>
+        <div class="item">
+          <img class="box-filme" src="img/mini8.jpg" alt="" />
+        </div>
+        <div class="item">
+          <img class="box-filme" src="img/mini9.jpg" alt="" />
+        </div>
+      </div>
+    </div>
+    <div class="modal-1">
+      <div class="modal-2">
+        <div class="modal-3">
+          <span class="fechar" onclick="fechar()">X</span>
+          <h2>House of Cards</h2>
+          <p>
+            House of Cards é uma série de televisão via streaming de origem
+            americana e do gênero drama político, criada por Beau Willimon[3]
+            para a plataforma Netflix. Tem como protagonista Kevin Spacey, como
+            Francis Underwood, um político ambicioso que almeja um alto cargo
+            público em Washington, DC. House of Cards é uma adaptação do romance
+            homônimo escrito por Michael Dobbs[4] e da minissérie britânica
+            criada por Andrew Davies. A primeira temporada de treze episódios
+            foi disponibilizada na íntegra no dia 1 de fevereiro de 2013. A
+            segunda foi lançada no dia 14 de fevereiro de 2014 com o mesmo
+            número de episódios.[5] Sua temporada final chegou a plataforma em 2
+            de novembro de 2018, contando com oito episódios.[6][7] No Brasil a
+            série também é transmitida pelo canal Paramount Channel e em
+            Portugal a série é exibida em exclusivo no Canal TVSéries. Foi a
+            primeira série transmitida em resolução 4K pela Netflix, sendo
+            sucedida pelas remasterizações de Breaking Bad e Orange Is the New
+            Black.[8]
+          </p>
+        </div>
+      </div>
+    </div>
+    <script
+      src="https://kit.fontawesome.com/ea0935302b.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="js/own/jquery.min.js"></script>
+    <script src="js/own/owl.carousel.min.js"></script>
+    <script src="js/own/main.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>
