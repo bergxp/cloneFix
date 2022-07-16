@@ -34,7 +34,7 @@ header nav a:hover {
 /*Fime principal*/
 .filme-principal {
   font-size: 16px;
-  background:  url("../img/house-capa.jpg");
+  background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url("../img/house-capa.jpg");
   height: 400px;
   background-size: cover;
 
